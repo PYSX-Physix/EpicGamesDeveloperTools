@@ -1,0 +1,13 @@
+﻿<Page
+    x:Class="Epic_Games_Developer_Tools.Views.MetaHumanCreatorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="ContentArea">
+        <InfoBar IsOpen="True" Severity="Warning" Title="App in Beta" IsClosable="False" Message="This app is still in development please report any bugs when using this application." />
+        <WebView2 Source="https://metahuman.unrealengine.com/" Margin="0 80 0 10"/>
+    </Grid>
+</Page>

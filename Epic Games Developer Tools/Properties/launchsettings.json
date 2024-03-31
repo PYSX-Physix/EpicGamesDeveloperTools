@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "Epic Games Developer Tools (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "Epic Games Developer Tools (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
